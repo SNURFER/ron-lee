@@ -4,10 +4,12 @@
   
   <style>
     img {
-      width: 80%;
-      max-width: 300px;
-      border-radius: 12px;
-      margin-bottom: 20px;
+        width: 100%;        
+        height: auto;       
+        max-width: 300px;   
+        border-radius: 12px;
+        margin-bottom: 20px;
+        object-fit: cover;  
     }
   </style>
   

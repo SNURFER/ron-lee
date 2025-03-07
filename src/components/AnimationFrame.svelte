@@ -9,7 +9,7 @@
 	const WIND_FORCE = 0.01;
 	const FALL_SPEED = 0.15;
   
-	let LOVE_ICONS = isHeartMode ? ['❤️', '💕', '💖', '💘'] : ['BADO', 'RON', '️JIHYUN'];
+	let LOVE_ICONS = isHeartMode ? ['❤️', '💕', '💖', 'ROUN'] : ['BADO', 'RON', '️JIHYUN'];
   
 	const TARGET_FPS = 60;
 	const MS_BETWEEN_FRAMES = 1000 / TARGET_FPS;

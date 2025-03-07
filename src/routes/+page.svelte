@@ -30,16 +30,16 @@
   
   <style>
     main {
-  display: flex;
-  flex-direction: column;  /* 세로로 배치 */
-  align-items: center;
-  justify-content: flex-start;  /* 세로로 나열되게 하기 위해 'flex-start'로 설정 */
-  text-align: center;
-  padding: 20px;
-  background-color: #f8f9fa;
-  height: 100%;  /* 높이를 100%로 설정하여 스크롤이 가능하도록 함 */
-  overflow-y: auto;  /* 세로 스크롤 허용 */
-}
+       display: flex;
+       flex-direction: column;  
+       align-items: center;
+       justify-content: flex-start;  
+       text-align: center;
+       padding: 20px;
+       background-color: #f8f9fa;
+       height: 100%;  
+       overflow-y: auto;  
+    }
 
   
     .calendar-container {

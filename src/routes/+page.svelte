@@ -60,6 +60,7 @@
     <MainImage imageUrl={imageUrl4} />
     <MainImage imageUrl={imageUrl5} />
     <MainImage imageUrl={imageUrl6} />
+    <MainImage imageUrl={imageUrl7} />
     <div class="heart-icon" on:click={toggleHeartMode}>
     ❤️
     </div>
@@ -69,6 +70,9 @@
       <Calendar {month} {highlightedDay} />
     </div>
     <MainMessage message={message3} />
+    <MainMessage message={message4} />
+    <MainMessage message={message5} />
+    <MainMessage message={message6} />
     <AnimationFrame {isHeartMode}></AnimationFrame>
   </main>
   

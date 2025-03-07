@@ -1,5 +1,5 @@
-<script>
-    export let message = "소중한 하루를 축하합니다! 🎂";
+<script lang="ts">
+    export let message: string; 
   </script>
   
   <style>

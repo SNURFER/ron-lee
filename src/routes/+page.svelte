@@ -14,12 +14,13 @@
     let imageUrl5 = "/main3.jpeg";
     let imageUrl6 = "/main4.png";
     let imageUrl7 = "/main5.jpeg";
-    let message1 = "로운이의 소중한 하루를 축하합니다! 🎂";
-    let message2 = "사랑하는 삼촌, 숙모가";
+    let message1 = "로운이의 11살 생일을 축하합니다! 🎂";
+    let message2 = "로운이를 사랑하는 삼촌, 숙모가";
     let message3 = "때론 슬프거나 마음대로 되지 않는 일도 있겠지만,"
     let message4 = "그 뒤엔 어김없이 행복하고 잘 풀리는 순간이 찾아올 거야.";
     let message5 = "그러니까 언제나 즐겁고 신나게, 매 순간을 소중히 살아가길 바라!";
-    let message6 = "한국오면 맛있는거 먹으러가자~~~기다릴게";
+    let message6 = "로운이 너무 보고 싶네~ 남은 기간 건강히 잘 지내다가,";
+    let message7 = "한국오면 맛있는거 먹으러 가자~~~";
 
 	const isHeartMode = writable(true);
 
@@ -73,6 +74,7 @@
     <MainMessage message={message4} />
     <MainMessage message={message5} />
     <MainMessage message={message6} />
+    <MainMessage message={message7} />
     <AnimationFrame {isHeartMode}></AnimationFrame>
   </main>
   
